@@ -9,6 +9,7 @@ batis: ui
 	# Remove cached .pyc files
 	rm -rf build/batis/listapp/__pycache__
 	batis pack build/batis -n batis-pyqt-example -o batis-pyqt-example-$(VERSION).app.tgz
+	@echo '"sha512": "$(shell sha512sum batis-pyqt-example-$(VERSION).app.tgz | cut -d' ' -f1)"'
 
 ui: listapp/main.py
 
