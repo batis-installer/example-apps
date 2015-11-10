@@ -22,4 +22,5 @@ body {
 .install-cmd {
     background-color: #ddd;
     padding: 0.5em;
+    border-left: 2px solid #999;
 }

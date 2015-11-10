@@ -1,0 +1,10 @@
+{
+  "name": "Batis PyQt Example",
+  "byline": "A simple PyQt application to demonstrate Batis packaging",
+  "builds": [
+    {
+      "url": "https://github.com/batis-installer/example-apps/releases/download/0.1/batis-pyqt-example-0.1.app.tgz",
+      "version": "0.1"
+    }
+  ]
+}
