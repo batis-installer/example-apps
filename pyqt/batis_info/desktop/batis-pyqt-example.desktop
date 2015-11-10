@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Batis PyQt Example
+Icon=batis-pyqt-example
+Exec="{{INSTALL_DIR}}/run.py"
+Comment=Example of Batis packaging
+Terminal=false
