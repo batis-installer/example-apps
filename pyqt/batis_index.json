@@ -4,6 +4,7 @@
   "builds": [
     {
       "url": "https://github.com/batis-installer/example-apps/releases/download/0.1/batis-pyqt-example-0.1.app.tgz",
+      "sha512": "14d146ebeadc26990c5927e5a00aa3a731416e4b53fc5168259c330bb84929091f80b4e73330c1c97c19c14fa03e33b188e3f11fd4638bbf395b5d2167217e9a",
       "version": "0.1"
     }
   ]
