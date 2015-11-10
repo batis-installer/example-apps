@@ -1,77 +1,63 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'buttonapp/main.ui'
+# Form implementation generated from reading ui file 'listapp/main.ui'
 #
-# Created: Wed Apr  2 16:57:10 2014
-#      by: PyQt4 UI code generator 4.10.3
+# Created: Tue Nov 10 12:43:25 2015
+#      by: PyQt5 UI code generator 5.2.1
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt4 import QtCore, QtGui
-
-try:
-    _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
-        return s
-
-try:
-    _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig)
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.setObjectName("MainWindow")
         MainWindow.resize(393, 606)
-        self.centralwidget = QtGui.QWidget(MainWindow)
-        self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
-        self.horizontalLayout = QtGui.QHBoxLayout(self.centralwidget)
-        self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
-        self.groupBox = QtGui.QGroupBox(self.centralwidget)
-        self.groupBox.setObjectName(_fromUtf8("groupBox"))
-        self.verticalLayout = QtGui.QVBoxLayout(self.groupBox)
-        self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
-        self.radio_1 = QtGui.QRadioButton(self.groupBox)
-        self.radio_1.setObjectName(_fromUtf8("radio_1"))
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.centralwidget)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.groupBox = QtWidgets.QGroupBox(self.centralwidget)
+        self.groupBox.setObjectName("groupBox")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.groupBox)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.radio_1 = QtWidgets.QRadioButton(self.groupBox)
+        self.radio_1.setObjectName("radio_1")
         self.verticalLayout.addWidget(self.radio_1)
-        self.radio_2 = QtGui.QRadioButton(self.groupBox)
-        self.radio_2.setObjectName(_fromUtf8("radio_2"))
+        self.radio_2 = QtWidgets.QRadioButton(self.groupBox)
+        self.radio_2.setObjectName("radio_2")
         self.verticalLayout.addWidget(self.radio_2)
-        self.radio_3 = QtGui.QRadioButton(self.groupBox)
-        self.radio_3.setObjectName(_fromUtf8("radio_3"))
+        self.radio_3 = QtWidgets.QRadioButton(self.groupBox)
+        self.radio_3.setObjectName("radio_3")
         self.verticalLayout.addWidget(self.radio_3)
-        self.radio_4 = QtGui.QRadioButton(self.groupBox)
-        self.radio_4.setObjectName(_fromUtf8("radio_4"))
+        self.radio_4 = QtWidgets.QRadioButton(self.groupBox)
+        self.radio_4.setObjectName("radio_4")
         self.verticalLayout.addWidget(self.radio_4)
-        self.add_button = QtGui.QPushButton(self.groupBox)
-        self.add_button.setObjectName(_fromUtf8("add_button"))
+        self.add_button = QtWidgets.QPushButton(self.groupBox)
+        self.add_button.setObjectName("add_button")
         self.verticalLayout.addWidget(self.add_button)
-        spacerItem = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.verticalLayout.addItem(spacerItem)
         self.horizontalLayout.addWidget(self.groupBox)
-        self.listWidget = QtGui.QListWidget(self.centralwidget)
-        self.listWidget.setObjectName(_fromUtf8("listWidget"))
+        self.listWidget = QtWidgets.QListWidget(self.centralwidget)
+        self.listWidget.setObjectName("listWidget")
         self.horizontalLayout.addWidget(self.listWidget)
         MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtGui.QMenuBar(MainWindow)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 393, 24))
-        self.menubar.setObjectName(_fromUtf8("menubar"))
-        self.menuFile = QtGui.QMenu(self.menubar)
-        self.menuFile.setObjectName(_fromUtf8("menuFile"))
+        self.menubar.setObjectName("menubar")
+        self.menuFile = QtWidgets.QMenu(self.menubar)
+        self.menuFile.setObjectName("menuFile")
         MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QtGui.QStatusBar(MainWindow)
-        self.statusbar.setObjectName(_fromUtf8("statusbar"))
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
-        self.actionNew = QtGui.QAction(MainWindow)
-        self.actionNew.setObjectName(_fromUtf8("actionNew"))
-        self.actionOpen = QtGui.QAction(MainWindow)
-        self.actionOpen.setObjectName(_fromUtf8("actionOpen"))
-        self.actionSave = QtGui.QAction(MainWindow)
-        self.actionSave.setObjectName(_fromUtf8("actionSave"))
+        self.actionNew = QtWidgets.QAction(MainWindow)
+        self.actionNew.setObjectName("actionNew")
+        self.actionOpen = QtWidgets.QAction(MainWindow)
+        self.actionOpen.setObjectName("actionOpen")
+        self.actionSave = QtWidgets.QAction(MainWindow)
+        self.actionSave.setObjectName("actionSave")
         self.menuFile.addAction(self.actionNew)
         self.menuFile.addAction(self.actionOpen)
         self.menuFile.addAction(self.actionSave)
@@ -81,15 +67,16 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
-        self.groupBox.setTitle(_translate("MainWindow", "Click things", None))
-        self.radio_1.setText(_translate("MainWindow", "Thing 1", None))
-        self.radio_2.setText(_translate("MainWindow", "Thing 2", None))
-        self.radio_3.setText(_translate("MainWindow", "Thing 3", None))
-        self.radio_4.setText(_translate("MainWindow", "Last thing", None))
-        self.add_button.setText(_translate("MainWindow", "Add to list", None))
-        self.menuFile.setTitle(_translate("MainWindow", "File", None))
-        self.actionNew.setText(_translate("MainWindow", "New", None))
-        self.actionOpen.setText(_translate("MainWindow", "Open", None))
-        self.actionSave.setText(_translate("MainWindow", "Save", None))
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.groupBox.setTitle(_translate("MainWindow", "Click things"))
+        self.radio_1.setText(_translate("MainWindow", "Thing 1"))
+        self.radio_2.setText(_translate("MainWindow", "Thing 2"))
+        self.radio_3.setText(_translate("MainWindow", "Thing 3"))
+        self.radio_4.setText(_translate("MainWindow", "Last thing"))
+        self.add_button.setText(_translate("MainWindow", "Add to list"))
+        self.menuFile.setTitle(_translate("MainWindow", "File"))
+        self.actionNew.setText(_translate("MainWindow", "New"))
+        self.actionOpen.setText(_translate("MainWindow", "Open"))
+        self.actionSave.setText(_translate("MainWindow", "Save"))
 

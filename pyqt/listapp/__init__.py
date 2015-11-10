@@ -1,9 +1,11 @@
 import sys
-from PyQt4 import QtGui
+from PyQt5 import QtWidgets
+
+__version__ = '0.1'
 
 from .main import Ui_MainWindow
 
-class Main(QtGui.QMainWindow):
+class Main(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         self.ui = Ui_MainWindow()
@@ -24,10 +26,10 @@ class Main(QtGui.QMainWindow):
         
     def add_item(self):
         text = self.get_radio_option()
-        QtGui.QListWidgetItem(text, self.ui.listWidget)        
+        QtWidgets.QListWidgetItem(text, self.ui.listWidget)
 
 def main():
-    app = QtGui.QApplication(sys.argv)
+    app = QtWidgets.QApplication(sys.argv)
     window = Main()
     window.show()
     sys.exit(app.exec_())
