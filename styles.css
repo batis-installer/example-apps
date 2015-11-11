@@ -15,6 +15,17 @@ body {
     margin-top: 0;
 }
 
+.app-icon {
+    float: right;
+    background-color: #fff;
+    padding: 1em;
+}
+
+.app-details {
+    display: inline-block;
+    min-width: 80%;
+}
+
 .rh-links {
     float: right;
 }

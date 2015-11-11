@@ -1,0 +1,20 @@
+{
+  "name": "Batis Electron Example",
+  "byline": "A simple Electron application to demonstrate Batis packaging",
+  "builds": [
+    {
+      "url": "https://github.com/batis-installer/example-apps/releases/download/0.1/batis-electron-example-0.1-x86_64.app.tgz",
+      "sha512": "18fa3c3821a1390e801c377705fc78ccd9120db51350d224258274b9dbd8ceca0c917b7d6543144476cc17ed7b10f0f2689c4a6a59b143c6a712fbf61379f98d",
+      "arch": "x86_64",
+      "kernel": "Linux",
+      "version": "0.1"
+    },
+    {
+      "url": "https://github.com/batis-installer/example-apps/releases/download/0.1/batis-electron-example-0.1-x86.app.tgz",
+      "sha512": "66f4be61b5d993573744addd7041ec57cf8ba8ef91af8ee76d17a23f9550b1d56884d800239a5c13c74df9aecc753cd8eebf772ffc766c61f65d4b9294225525",
+      "arch": "x86",
+      "kernel": "Linux",
+      "version": "0.1"
+    }
+  ]
+}
