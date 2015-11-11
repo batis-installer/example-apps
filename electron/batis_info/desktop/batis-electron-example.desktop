@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Batis Electron Example
+Icon=batis-electron-example
+Exec="{{INSTALL_DIR}}/batis-electron-example"
+Comment=Example of Batis packaging
+Terminal=false
