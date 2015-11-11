@@ -33,5 +33,5 @@ body {
     background-color: #ddd;
     padding: 0.5em;
     border-left: 2px solid #999;
-    whitespace: pre-wrap;
+    white-space: pre-wrap;
 }
