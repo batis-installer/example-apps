@@ -1,7 +1,7 @@
 {
   "name": "Batis PyQt example",
   "byline": "A simple PyQt application to demonstrate Batis packaging",
-  "icon": "batis_info/icons/hicolor/48x48/apps/batis-pyqt-example.png",
+  "icon_name": "batis-pyqt-example",
   "index_url": "https://batis-installer.github.io/example-apps/pyqt/batis_index.json",
   "commands": [
     {"name": "batis-pyqt-example", "target": "run.py"}
