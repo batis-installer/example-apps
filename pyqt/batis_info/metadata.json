@@ -5,5 +5,6 @@
   "index_url": "https://batis-installer.github.io/example-apps/pyqt/batis_index.json",
   "commands": [
     {"name": "batis-pyqt-example", "target": "run.py"}
-  ]
+  ],
+  "format_version": [1, 0]
 }
