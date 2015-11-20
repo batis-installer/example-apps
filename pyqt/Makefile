@@ -2,7 +2,6 @@ VERSION := $(shell python3 -c "import listapp; print(listapp.__version__)")
 
 batis: ui
 	rm -rf build/batis
-	exit 0
 	mkdir -p build/batis
 	# Copy files into a build directory
 	cp --archive listapp run.py batis_info build/batis/
