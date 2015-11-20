@@ -3,6 +3,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0 3px;
+    font-family: sans-serif;
 }
 
 .app-description {
