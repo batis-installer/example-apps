@@ -1,5 +1,5 @@
 ELECTRON_VERSION := 0.34.3
-VERSION := 0.1
+VERSION := 0.2
 
 # This will use electron-packager to get the specified version of Electron and
 # copy files to the right places. Install this by running:
@@ -29,4 +29,4 @@ app_build_sentinel: $(shell find electron-quick-start)
 clean:
 	rm -rf build app_build_sentinel
 
-.PHONY: batis
+.PHONY: batis clean

@@ -1,7 +1,7 @@
 import sys
 from PyQt5 import QtWidgets
 
-__version__ = '0.1'
+__version__ = '0.2'
 
 from .main import Ui_MainWindow
 
