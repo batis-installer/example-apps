@@ -2,20 +2,21 @@
   "format_version": [1, 0],
   "name": "Batis Electron Example",
   "byline": "A simple Electron application to demonstrate Batis packaging",
+  "icon_url": "https://batis-installer.github.io/example-apps/electron/icon-256.png",
   "builds": [
     {
-      "url": "https://github.com/batis-installer/example-apps/releases/download/0.1/batis-electron-example-0.1-x86_64.app.tgz",
-      "sha512": "18fa3c3821a1390e801c377705fc78ccd9120db51350d224258274b9dbd8ceca0c917b7d6543144476cc17ed7b10f0f2689c4a6a59b143c6a712fbf61379f98d",
+      "url": "https://github.com/batis-installer/example-apps/releases/download/0.2/batis-electron-example-0.2-x86_64.app.tgz",
+      "sha512": "1a0aae47f56ffa6c93686b7f03fe0d285e4763a5d93e9f00874de6755f964262d65b99ead3085ccb9736d80d6a5256c907dcf39788229d35d667da9ce0456b05",
       "arch": "x86_64",
       "kernel": "Linux",
-      "version": "0.1"
+      "version": "0.2"
     },
     {
-      "url": "https://github.com/batis-installer/example-apps/releases/download/0.1/batis-electron-example-0.1-x86.app.tgz",
-      "sha512": "66f4be61b5d993573744addd7041ec57cf8ba8ef91af8ee76d17a23f9550b1d56884d800239a5c13c74df9aecc753cd8eebf772ffc766c61f65d4b9294225525",
+      "url": "https://github.com/batis-installer/example-apps/releases/download/0.2/batis-electron-example-0.2-x86.app.tgz",
+      "sha512": "9a9007116e682fa49d324ac0ee23cad977df8b1488a6f72a588b56e7236b2aa15323be2610a1fd0059ca932b7278fae10016fe671d2a17d469dfffa8d4e6de11",
       "arch": "x86",
       "kernel": "Linux",
-      "version": "0.1"
+      "version": "0.2"
     }
   ]
 }
