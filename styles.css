@@ -26,13 +26,19 @@ body {
     width: calc(100% - 60px);
 }
 
-.rh-links {
-    float: right;
+.link-group {
+    padding: 0 1em;
 }
 
-.install-cmd {
-    background-color: #ddd;
-    padding: 0.5em;
-    border-left: 2px solid #999;
-    white-space: pre-wrap;
+.link-group li {
+    display: inline-block;
+    background-color: #dfd;
+    border: 1px solid #cfc;
+    padding: 2px;
+    margin: 3px;
+    list-style-type: none;
+}
+
+.link-group li a {
+    text-decoration: none;
 }
